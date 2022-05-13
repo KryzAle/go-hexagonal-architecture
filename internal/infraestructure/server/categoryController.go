@@ -11,7 +11,7 @@ import (
 
 func GetCategoryEndpoint(useCase ports.ICategoryUseCases) func(c *gin.Context) {
 	return func(c *gin.Context) {
-		var person domain.Category
+		var category domain.Category
 		id, isExist := c.Params.Get("id")
 		if isExist {
 			idNumb, err := strconv.Atoi(id)
@@ -19,12 +19,12 @@ func GetCategoryEndpoint(useCase ports.ICategoryUseCases) func(c *gin.Context) {
 				c.AbortWithStatus(http.StatusNotFound)
 				return
 			}
-			person, err = useCase.Get(idNumb)
+			category, err = useCase.Get(idNumb)
 			if err != nil {
 				c.AbortWithStatus(http.StatusNoContent)
 				return
 			}
 		}
-		c.JSON(http.StatusOK, BuildResponsePersonGet(person))
+		c.JSON(http.StatusOK, category)
 	}
 }

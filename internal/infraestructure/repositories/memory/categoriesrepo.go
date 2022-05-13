@@ -6,31 +6,31 @@ import (
 )
 
 var (
-	onceCategorysRepo     sync.Once
-	instanceCategorysRepo *repository
+	onceCategorysRepo      sync.Once
+	instanceCategoriesRepo *categoriesRepository
 )
 
-type repository struct {
+type categoriesRepository struct {
 	dataMemory map[int]domain.Category
 	lastId     int
 }
 
-func NewCategoryRepository() *repository {
+func NewCategoryRepository() *categoriesRepository {
 	onceCategorysRepo.Do(func() {
-		instanceCategorysRepo = &repository{
+		instanceCategoriesRepo = &categoriesRepository{
 			dataMemory: map[int]domain.Category{},
 			lastId:     0,
 		}
 	})
-	return instanceCategorysRepo
+	return instanceCategoriesRepo
 }
 
-func (r *repository) Get(id int) (domain.Category, error) {
+func (r *categoriesRepository) Get(id int) (domain.Category, error) {
 	category := r.dataMemory[id]
 	return category, nil
 }
 
-func (r *repository) Save(category domain.Category) error {
+func (r *categoriesRepository) Save(category domain.Category) error {
 	r.dataMemory[r.lastId] = category
 	r.lastId++
 	return nil
