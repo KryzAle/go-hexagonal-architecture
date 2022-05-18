@@ -1,0 +1,303 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.82.90
+# Built for i686-pc-mingw32
+# Copyright (C) 1988-2012 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Wed May 18 15:17:49 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR := f:/Downloads/eShop-master/eShop-master
+# default
+SHELL := sh.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"es","availableLanguages":{"*":"es"},"_languagePackId":"125a9a608456aa5e8a25d0a18c7b1d68.es","_translationsConfigFile":"C:\\Users\\KryzAle PC\\AppData\\Roaming\\Code\\clp\\125a9a608456aa5e8a25d0a18c7b1d68.es\\tcf.json","_cacheRoot":"C:\\Users\\KryzAle PC\\AppData\\Roaming\\Code\\clp\\125a9a608456aa5e8a25d0a18c7b1d68.es","_resolvedLanguagePackCoreLocation":"C:\\Users\\KryzAle PC\\AppData\\Roaming\\Code\\clp\\125a9a608456aa5e8a25d0a18c7b1d68.es\\c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5","_corruptedFile":"C:\\Users\\KryzAle PC\\AppData\\Roaming\\Code\\clp\\125a9a608456aa5e8a25d0a18c7b1d68.es\\corrupted.info","_languagePackSupport":true}
+# environment
+ONEDRIVE = C:\Users\KryzAle PC\OneDrive
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+TMP = C:\Users\KRYZAL~1\AppData\Local\Temp
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-03d66a8b-2040-49ff-b528-8d78decf0ce1-sock
+# environment
+VSCODE_CWD = C:\Users\KryzAle PC\AppData\Local\Programs\Microsoft VS Code
+# environment
+GOPROXY = https://proxy.golang.org,direct
+# environment
+PATH = C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;F:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;F:\Program Files\nodejs\;F:\Program Files\Go\bin;C:\Users\KryzAle PC\AppData\Local\Microsoft\WindowsApps;C:\Users\KryzAle PC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\KryzAle PC\AppData\Local\gitkraken\bin;F:\MinGW\bin;C:\Users\KryzAle PC\AppData\Roaming\npm;C:\Users\KryzAle PC\go\bin
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\KryzAle PC
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+GOPATH = C:\Users\KryzAle PC\go
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_5736_MIBKOCOWQPUUVHVK
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = DESKTOP-G3A0V01
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = KryzAle PC
+# environment
+PUBLIC = C:\Users\Public
+# environment
+GOMODCACHE = C:\Users\KryzAle PC\go\pkg\mod
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\KryzAle PC\AppData\Roaming\Code\CachedData\c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\DESKTOP-G3A0V01
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = DESKTOP-G3A0V01
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# default
+MAKE_VERSION := 3.82.90
+# makefile
+.DEFAULT_GOAL := run
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+LOCALAPPDATA = C:\Users\KryzAle PC\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\26f78f3d42c6fa97660770d1737aee03-1.67.2-main-sock
+# environment
+HOMEPATH = \Users\KryzAle PC
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+SYSTEMROOT = C:\WINDOWS
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\KryzAle PC\AppData\Roaming
+# environment
+__COMPAT_LAYER = DetectorsAppHealth
+# environment
+TEMP = C:\Users\KRYZAL~1\AppData\Local\Temp
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 1801
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 23
+# environment
+VSCODE_PID = 5736
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-G3A0V01
+# variable set hash-table stats:
+# Load=92/1024=9%, Rehash=0, Collisions=12/110=11%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# C:\ProgramData\DockerDesktop\version-bin: could not be stat'd.
+# C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (key C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, mtime 1641334212): 5 files, no impossibilities.
+# C:\WINDOWS\System32\WindowsPowerShell\v1.0\ (key C:/WINDOWS/System32/WindowsPowerShell/v1.0/, mtime 1641299440): 30 files, no impossibilities.
+# . (key f:/Downloads/eShop-master/eShop-master, mtime 1652648873): 12 files, no impossibilities.
+# C:\Users\KryzAle PC\go\bin (key C:/Users/KryzAle PC/go/bin, mtime 1649948021): 12 files, no impossibilities.
+# F:\Program Files\Git\cmd (key F:/Program Files/Git/cmd, mtime 1643237438): 8 files, no impossibilities.
+# C:\WINDOWS\System32\OpenSSH\: could not be stat'd.
+# F:\MinGW\bin (key F:/MinGW/bin, mtime 1648734023): 9 files, no impossibilities.
+# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1642210902): 10 files, no impossibilities.
+# C:\Users\KryzAle PC\AppData\Roaming\npm (key C:/Users/KryzAle PC/AppData/Roaming/npm, mtime 1649700483): 15 files, no impossibilities.
+# C:\WINDOWS (key C:/WINDOWS, mtime 1652485450): 115 files, no impossibilities.
+# C:\Users\KryzAle PC\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/KryzAle PC/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1652897851): 4 files, no impossibilities.
+# C:\Users\KryzAle PC\AppData\Local\Microsoft\WindowsApps (key C:/Users/KryzAle PC/AppData/Local/Microsoft/WindowsApps, mtime 1651069729): 26 files, no impossibilities.
+# C:\Program Files\Docker\Docker\resources\bin (key C:/Program Files/Docker/Docker/resources/bin, mtime 1648679435): 13 files, no impossibilities.
+# F:\Program Files\Go\bin (key F:/Program Files/Go/bin, mtime 1649775940): 4 files, no impossibilities.
+# C:\Users\KryzAle PC\AppData\Local\gitkraken\bin (key C:/Users/KryzAle PC/AppData/Local/gitkraken/bin, mtime 1643072162): 3 files, no impossibilities.
+# C:\WINDOWS\System32\Wbem (key C:/WINDOWS/System32/Wbem, mtime 1652485321): 172 files, no impossibilities.
+# F:\Program Files\nodejs\ (key F:/Program Files/nodejs/, mtime 1648734092): 13 files, no impossibilities.
+# C:\WINDOWS\system32 (key C:/WINDOWS/system32, mtime 1652719451): 2963 files, no impossibilities.
+
+# 3414 files, no impossibilities in 19 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+.PHONY: run migrations
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-18 15:10:51
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+run:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 3):
+	 $(info running server...) @
+	@$(DEV_VARS) go run ./cmd/server/main.go
+
+migrations:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 8):
+	 $(info running migrations...) @
+	@$(DEV_VARS) go run ./cmd/migrations/main.go
+
+# files hash-table stats:
+# Load=7/1024=1%, Rehash=0, Collisions=0/22=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 7 (6) / strings = 3385 / storage = 51150 B / avg = 15 B
+# current buf: size = 8174 B / used = 2144 B / count = 122 / avg = 17 B
+# other used: total = 42976 B / count = 3263 / avg = 13 B
+# other free: total = 38 B / max = 10 B / min = 4 B / avg = 6 B
+
+# strcache performance: lookups = 3448 / hit rate = 1%
+# hash-table stats:
+# Load=3385/8192=41%, Rehash=0, Collisions=1134/3448=33%
+# Finished Make data base on Wed May 18 15:17:49 2022
+
+ 
+make.exe: *** No rule to make target 'all'.  Stop.
+
